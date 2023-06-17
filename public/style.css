@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+/* .form-username{
+    display: none;
+} */
+.chatRoom{
+    display: none;
+}
+
+.chatRoom{
+    width: 100%;
+    height: 100vh;
+
+}
+.header{
+    text-align: center;
+    background-color: black;
+    padding: 0.5rem;
+    color: white;
+    font-size: 2rem;
+
+}
+.messages{
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+}
+.message{
+    background-color: #e1e1e1;
+    width: fit-content;
+    padding: 7px;
+    margin: 12px 9px;
+    border-radius: 3px;
+}
+.sent{
+    align-self: flex-end;
+
+}
